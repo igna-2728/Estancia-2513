@@ -1,1 +1,68 @@
-.venv
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# Registros del instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.nox/
+.tox/
+
+# Cachés de herramientas de tipo/analizadores
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y otros temporales
+*.log
+coverage.xml
+*.sqlite3
+*.db
+*.tmp
+*.bak
+
+# Variables de entorno / secretos locales
+.env
+.env.*.local
+secrets.json
+
+# Extensiones compiladas / artefactos de compilación
+*.so
+*.dll
+*.pyd
